@@ -13,11 +13,16 @@
 </head>
 <body>
     <!-- how to center a div? -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 mx-auto green">
+    <!-- d-flex - a display utility to create a flexbox container-->
+    <!-- align-items-center affects the entire div container vertically - and need to add view height -->
+    <!-- not sure why justify-content-center doesnt affect the text? -->
+    <!-- need mx-auto to center the div container horizontally-->
+    <div class="d-flex align-items-center justify-content-center vh-100">
+        <div class="container">
+                <div class="row">
+                <div class="col-6 mx-auto green">
                 centered
+                </div>
             </div>
         </div>
     </div>
